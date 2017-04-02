@@ -1,4 +1,4 @@
 function load() {
 }
 
-document.addEventListener("DOMContentLoaded", load);
+document.addEventListener("DOMContentLoaded", load, false);
