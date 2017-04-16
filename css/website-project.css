@@ -8,4 +8,10 @@ header nav ul {
 
 header nav ul li {
   display: inline-block;
+  background-color: red;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
 }
