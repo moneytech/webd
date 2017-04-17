@@ -76,6 +76,11 @@ footer nav ul li a:hover
   text-decoration: underline;
 }
 
+footer nav ul li a#this-page
+{
+  text-decoration: underline;
+}
+
 footer ul li:after
 {
   padding-left: 10px;
