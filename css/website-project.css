@@ -33,6 +33,7 @@ header nav ul li
 header nav ul li a
 {
   background-color: rgba(0,0,0,0.5);
+  border-radius: 5px;
   color:rgba(255,255,255,0.9);
   text-decoration: none;
   padding: 10px 20px;
@@ -40,6 +41,12 @@ header nav ul li a
 
 header nav ul li a:hover,
 header nav ul li a:focus
+{
+  background-color: rgba(255,255,255,0.5);
+  color: rgba(0,0,0,0.9);
+}
+
+header nav ul li a#this-page
 {
   background-color: rgba(255,255,255,0.5);
   color: rgba(0,0,0,0.9);
@@ -78,3 +85,4 @@ footer ul li:after {
 footer ul li:last-of-type:after {
   content: "";
 }
+
