@@ -92,6 +92,7 @@ footer ul li:last-of-type:after
   content: "";
 }
 
+h1,
 section
 {
   margin: 0 20px;
