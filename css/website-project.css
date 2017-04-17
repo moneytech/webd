@@ -77,12 +77,18 @@ footer nav ul li a:hover
 }
 
 
-footer ul li:after {
+footer ul li:after
+{
   padding-left: 10px;
   content: " | ";
 }
 
-footer ul li:last-of-type:after {
+footer ul li:last-of-type:after
+{
   content: "";
 }
 
+section
+{
+  margin: 0 20px;
+}
