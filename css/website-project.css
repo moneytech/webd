@@ -92,7 +92,11 @@ footer ul li:last-of-type:after
   content: "";
 }
 
-h1,
+h1
+{
+  margin: 10px 20px;
+}
+
 section
 {
   margin: 0 20px;
