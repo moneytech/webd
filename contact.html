@@ -19,28 +19,34 @@
   <section>
    <h1>Contact Us</h1>
    <form action="contact.html" method="post">
+    <fieldset id="fs_contact">
+     <legend>Contact</legend>
      <ul>
       <li>
        <label for="name">Name:</label>
        <input id="name" name="name" type="text">
       </li>
       <li>
-       <label for="phone">Name:</label>
+       <label for="phone">Phone:</label>
        <input id="phone" name="phone" type="tel">
       </li>
       <li>
        <label for="email">Email:</label>
        <input id="email" name="email" type="email">
       </li>
+     </ul>
+    </fieldset>
+    <fieldset id="fs_comments">
+     <legend>Coments</legend>
+     <ul>
       <li>
        <label for="comments">Comments:</label>
        <textarea id="comments" name="comments"></textarea>
       </li>
-      <li>
-       <input type="submit" value=" Submit ">
-       <input type="reset" value=" Reset ">
-      </li>
      </ul>
+    </fieldset>
+    <input type="submit" value=" Submit ">
+    <input type="reset" value=" Reset ">
    </form>
   </section>
   <footer>
