@@ -46,7 +46,7 @@ header nav ul li a:focus
   color: rgba(0,0,0,0.9);
 }
 
-header nav ul li a#this-page
+header nav ul li a.this-page
 {
   background-color: #fff;
   color: rgba(0,0,0,0.9);
@@ -76,7 +76,7 @@ footer nav ul li a:hover
   text-decoration: underline;
 }
 
-footer nav ul li a#this-page
+footer nav ul li a.this-page
 {
   text-decoration: underline;
 }
