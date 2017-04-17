@@ -17,8 +17,7 @@ footer
   text-align: center;
 }
 
-header nav ul,
-footer nav ul
+ul
 {
   list-style: none;
 }
@@ -118,3 +117,7 @@ legend
   font-weight: bold;
 }
 
+label
+{
+  width: 150px;
+}
