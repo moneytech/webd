@@ -48,7 +48,7 @@ header nav ul li a:focus
 
 header nav ul li a#this-page
 {
-  background-color: rgba(255,255,255,0.5);
+  background-color: #fff;
   color: rgba(0,0,0,0.9);
 }
 
