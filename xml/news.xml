@@ -1,13 +1,11 @@
 <?xml version="1.0"?>
 <news>
-  <articles>
-    <article>
-      <title>How Many Data Centers Needed World-Wide</title>
-      <link>http://perspectives.mvdirona.com/2017/04/how-many-data-centers-needed-world-wide/</link>
-    </article>
-    <article>
-      <title>Advanced RequireJS bundling with Typescript</title>
-      <link>https://www.atlascode.com/advanced-requirejs-bundling-typescript/</link>
-    </article>
-  </articles>
+  <article>
+    <title>How Many Data Centers Needed World-Wide</title>
+    <link>http://perspectives.mvdirona.com/2017/04/how-many-data-centers-needed-world-wide/</link>
+  </article>
+  <article>
+    <title>Advanced RequireJS bundling with Typescript</title>
+    <link>https://www.atlascode.com/advanced-requirejs-bundling-typescript/</link>
+  </article>
 </news>
