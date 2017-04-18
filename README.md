@@ -1,2 +1,5 @@
 # Web Development 1
-Website Project
+
+WEBD-1000 Website Project
+
+Business Information Technology (Term 2)
