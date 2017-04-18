@@ -3,11 +3,11 @@
   <service>
     <name>Google Maps</name>
     <description>Geographic maps around the world for helping you to find amazing places.</description>
-    <image>images/google-maps.jpg</image>
+    <image>images/google-maps.png</image>
   </service>
   <service>
     <name>Google Translate</name>
     <description>Translation of many languages for helping you to communicate better with almost any country in the world.</description>
-    <image>images/google-translate.jpg</image>
+    <image>images/google-translate.png</image>
   </service>
 </services>
