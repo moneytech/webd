@@ -1,60 +1,66 @@
 <!DOCTYPE html>
 <html>
- <head>
-  <title>Contact Us - Website Project</title>
-  <link rel="stylesheet" type="text/css" href="https://moneytech.github.io/webd/css/website-project.css" />
-  <script type="text/javascript" src="https://moneytech.github.io/webd/js/website-project.js"></script>
- </head>
- <body>
-  <header>
-   <nav>
-    <ul>
-     <li><a href="index.html">Home</a></li>
-     <li><a href="products-and-services.html">Products &amp; Services</a></li>
-     <li><a href="contact-us.html" class="this-page">Contact Us</a></li>
-    </ul>
-   </nav>
-   <h1>Contact Us</h1>
-  </header>
-  <h1>Contact Us</h1>
-  <section>
-   <form action="contact.html" method="post">
-    <fieldset id="fs_contact">
-     <legend>Contact</legend>
-     <label for="name">Name:</label>
-     <input id="name" name="name" type="text">
-    </fieldset>
-    <fieldset id="fs_phone">
-     <legend>Phone</legend>
-      <label for="phone">Phone:</label>
-      <input id="phone" name="phone" type="tel">
-    </fieldset>
-    <fieldset id="fs_email">
-     <legend>Email</legend>
-      <label for="email">Email:</label>
-      <input id="email" name="email" type="email">
-    </fieldset>
-    <fieldset id="fs_comments">
-     <legend>Coments</legend>
-     <label for="comments">Comments:</label>
-     <textarea id="comments" name="comments"></textarea>
-    </fieldset>
-    <fieldset id="fs_buttons">
-     <input type="submit" value=" Submit ">
-     <input type="reset" value=" Reset ">
-    </fieldset>
-   </form>
-  </section>
-  <footer>
-   <nav>
-    <ul>
-     <li><a href="index.html">Home</a></li>
-     <li><a href="products-and-services.html">Products &amp; Services</a></li>
-     <li><a href="contact-us.html" class="this-page">Contact Us</a></li>
-    </ul>
-   </nav>
-   <a href="https://validator.w3.org/nu/?doc=https://moneytech.github.io/webd/contact.html"><img src="images/valid_html5.png" alt="W3C HTML5 Validation"></a>
-   <a href="https://jigsaw.w3.org/css-validator/validator?profile=css3&uri=https://moneytech.github.io/webd/css/website-project.css"><img src="images/valid_css3.png" alt="W3C CSS3 Validation"></a>
-  </footer>
- </body>
+  <head>
+    <title>Contact Us - Website Project</title>
+    <link rel="stylesheet" type="text/css" href="css/website-project.css" />
+    <script type="text/javascript" src="js/contact-us.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products-and-services.html">Products &amp; Services</a></li>
+            <li><a href="contact-us.html" class="this-page">Contact Us</a></li>
+          </ul>
+        </nav>
+        <h1>Contact Us</h1>
+      </div>
+    </header>
+    <div class="container">
+      <section>
+        <h2>Contact Us</h2>
+        <form id="form" action="contact-us.html" method="post">
+          <fieldset>
+            <label for="f_name">Name:</label>
+            <input id="f_name" name="name" type="text" placeholder="Type your name here">
+            <span id="e_name">Invalid name</span>
+          </fieldset>
+          <fieldset>
+            <label for="f_phone">Phone:</label>
+            <input id="f_phone" name="phone" type="text" placeholder="Type your phone number here">
+            <span id="e_phone">Invalid phone number (204-888-1111)</span>
+          </fieldset>
+          <fieldset>
+            <label for="f_email">Email:</label>
+            <input id="f_email" name="email" type="text" placeholder="Type your email here">
+            <span id="e_email">Invalid email (e.g. name@domain.com)</span>
+          </fieldset>
+          <fieldset>
+            <label for="f_comments">Comments:</label>
+            <textarea id="f_comments" name="comments" placeholder="Type your comments"></textarea>
+            <span id="e_comments">Invalid comments</span>
+          </fieldset>
+          <fieldset id="fs_buttons">
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+          </fieldset>
+        </form>
+      </section>
+    </div>
+    <footer>
+      <div class="container">
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products-and-services.html">Products &amp; Services</a></li>
+            <li><a href="contact-us.html" class="this-page">Contact Us</a></li>
+          </ul>
+        </nav>
+        <a href="https://validator.w3.org/nu/?doc=https://moneytech.github.io/webd/contact.html"><img src="images/valid_html5.png" alt="W3C HTML5 Validation"></a>
+        <a href="https://jigsaw.w3.org/css-validator/validator?profile=css3&uri=https://moneytech.github.io/webd/css/website-project.css"><img src="images/valid_css3.png" alt="W3C CSS3 Validation"></a>
+      </div>
+    </footer>
+  </body>
 </html>
