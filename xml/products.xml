@@ -1,11 +1,13 @@
 <?xml version="1.0"?>
 <products>
   <product>
-    <title>How Many Data Centers Needed World-Wide</title>
-    <link>http://perspectives.mvdirona.com/2017/04/how-many-data-centers-needed-world-wide/</link>
+    <name>Product 1</name>
+    <description>Product 1 description</description>
+    <image>images/product-1.jpg</image>
   </product>
   <product>
-    <title>Advanced RequireJS bundling with Typescript</title>
-    <link>https://www.atlascode.com/advanced-requirejs-bundling-typescript/</link>
+    <name>Product 2</name>
+    <description>Product 2 description</description>
+    <image>images/product-2.jpg</image>
   </product>
 </products>
