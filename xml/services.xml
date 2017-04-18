@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <services>
   <service>
-    <name>Service 1</name>
-    <description>Service 1 description</description>
-    <image>images/service-1.jpg</image>
+    <name>Google Maps</name>
+    <description>Geographic maps around the world for helping you to find amazing places.</description>
+    <image>images/google-maps.jpg</image>
   </service>
   <service>
-    <name>Service 2</name>
-    <description>Service 2 description</description>
-    <image>images/service-2.jpg</image>
+    <name>Google Translate</name>
+    <description>Translation of many languages for helping you to communicate better with almost any country in the world.</description>
+    <image>images/google-translate.jpg</image>
   </service>
 </services>
